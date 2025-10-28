@@ -5,7 +5,7 @@
 #include <string>
 
 void printResult(double result, const std::string& currency) {
-    std::cout << "Êîíâåðòîâàíà ñóìà: " << result << " " << currency << std::endl;
+    std::cout << "ÐšÐ¾Ð½Ð²ÐµÑ€Ñ‚Ð¾Ð²Ð°Ð½Ð° ÑÑƒÐ¼Ð¼Ð°: " << result << " " << currency << std::endl;
 }
 
 #endif

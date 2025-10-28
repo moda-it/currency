@@ -6,7 +6,7 @@
 
 double getAmount() {
     double amount;
-    std::cout << "Ââåä³òü ê³ëüê³ñòü ãðîøåé: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÑÑƒÐ¼Ð¼Ñƒ: ";
     std::cin >> amount;
     return amount;
 }

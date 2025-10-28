@@ -6,8 +6,8 @@
 
 int main() {
     double amount = getAmount();
-    std::string from = getCurrency("Введіть валюту, з якої конвертувати (USD, EUR, UAH): ");
-    std::string to = getCurrency("Введіть валюту, в яку конвертувати (USD, EUR, UAH): ");
+    std::string from = getCurrency("Р’РІРµРґС–С‚СЊ РІР°Р»СЋС‚Сѓ Р· СЏРєРѕС— РєРѕРЅРІРµСЂС‚СѓРІР°С‚Рё (USD, EUR, UAH): ");
+    std::string to = getCurrency("Р’РІРµРґС–С‚СЊ РІР°Р»СЋС‚Сѓ РІ СЏРєСѓ РєРѕРЅРІРµСЂС‚СѓРІР°С‚Рё (USD, EUR, UAH): ");
 
     double result = convert(amount, from, to);
     printResult(result, to);
